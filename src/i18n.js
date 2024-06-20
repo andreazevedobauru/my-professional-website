@@ -19,7 +19,7 @@ const messages = {
       llyearsExperience: '11 anos de experiência'
     },
     experiencies: {
-      title: 'Empresas que ajudei com meu expertiese',
+      title: 'Empresas que ajudei com meu expertise',
       since: 'Desde'
     }
   }
