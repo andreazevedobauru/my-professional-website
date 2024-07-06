@@ -3,9 +3,9 @@ import { createI18n } from 'vue-i18n'
 const messages = {
   en: {
     header: {
-      imAndreAzevedo: 'I\'M ANDRE AZEVEDO',
+      imFelipeBarros: 'I\'M FELIPE BARROS',
       fullStackEnginner: 'FULLSTACK ENGINEER',
-      llyearsExperience: '11 experience years '
+      Experience: 'Looking for the first opportunity '
     },
     experiencies: {
       title: 'Companies that i helped with my expertise',
@@ -14,9 +14,9 @@ const messages = {
   },
   ptBR: {
     header: {
-      imAndreAzevedo: 'OI, SOU ANDRE AZEVEDO',
+      imFelipeBarros: 'OI, SOU FELIPE BARROS',
       fullStackEnginner: 'FULLSTACK ENGINEER',
-      llyearsExperience: '11 anos de experiência'
+      Experience: 'Procurando a primeira oportunidade'
     },
     experiencies: {
       title: 'Empresas que ajudei com meu expertise',
