@@ -2,7 +2,7 @@
   <img src="https://media.licdn.com/dms/image/C4D03AQGvs02j-sGxug/profile-displayphoto-shrink_800_800/0/1650661791428?e=1725494400&v=beta&t=jLqcfIkUSNc4-3My_q2xtHNlO3IC7AcWYNHw9AtH47E" alt="Felipe Barros" width="150">
 </p>
 
-# André Azevedo Professional WebSite
+# Felipe Barros Professional WebSite
 
 ## Project Information
 
