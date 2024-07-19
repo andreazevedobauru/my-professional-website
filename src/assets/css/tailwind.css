@@ -10,8 +10,8 @@ body,
   width: 100%;
   height: 100%;
   background-image: url(../images/back2.jpg);
-  background-position: center;
-  background-size: cover;
+  background-position: cover;
+  background-size: center;
 }
 
 .header-bg-dark{
@@ -21,5 +21,5 @@ body,
 
 .bg-blue-gradient{
   background: rgb(12, 2, 150);
-  background: linear-gradient(to bottom, rgb(0,0,0), rgb(56, 50, 227) );
+  background: linear-gradient(300deg, rgb(5, 3, 46), rgb(56, 50, 227) );
 }
