@@ -8,10 +8,8 @@ html,
 body,
 #app {
   width: 100%;
-  height: 100%;
-  background-image: url(../images/back2.jpg);
-  background-position: cover;
-  background-size: center;
+  background: rgb(5, 2, 0);
+  background: linear-gradient(223deg, rgb(0, 0, 0,1) 0%, rgb(12, 2, 150) 65%, rgb(0, 0, 0,1));
 }
 
 .header-bg-dark{
@@ -19,7 +17,9 @@ body,
   background: linear-gradient(223deg, rgb(0, 0, 0,1) 0%, rgb(12, 2, 150) 65%, rgb(0, 0, 0,1) 100%);
 }
 
-.bg-blue-gradient{
-  background: rgb(12, 2, 150);
-  background: linear-gradient(300deg, rgb(5, 3, 46), rgb(56, 50, 227) );
+.header-bg{
+  height: 100%;
+  background-image: url(../images/back2.jpg);
+  background-position: cover;
+  background-size: center;
 }

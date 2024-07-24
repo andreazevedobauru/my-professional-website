@@ -6,8 +6,8 @@
 
 <script>
 import indexHeader from '@/components/headerComponent.vue'
-// import experienciesComponent from '@/components/experienciesComponent.vue'
 import EducationsComponent from '@/components/educationsComponent.vue'
+// import experienciesComponent from '@/components/experienciesComponent.vue'
 
 export default {
   components: { indexHeader, EducationsComponent }

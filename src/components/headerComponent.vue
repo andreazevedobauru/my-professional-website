@@ -54,7 +54,7 @@
   </div>
 </template> -->
 <template>
-  <div class="flex flex-wrap p-5 lg:px-20 xl:px-32 lg:pt-20 lg:pb-10 lg:py-5">
+  <div class=" header-bg flex flex-wrap p-5 lg:px-20 xl:px-32 lg:pt-20 lg:pb-10 lg:py-5">
     <div class="w-full lg:w-auto flex justify-center lg:block">
       <div class="flex-none">
         <div data-aos="zoom-in-up" class="bg-cover rounded-lg xl:rounded-xl h-60 w-60 xl:h-96 xl:w-96 transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:skew-y-2 duration-300" :style="'background-image: url(' + require('../assets/images/perfil.jpg') "></div>

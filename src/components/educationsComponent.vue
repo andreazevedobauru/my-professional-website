@@ -1,5 +1,5 @@
 <template>
-  <div class=" header-bg-dark bg-white px-10 pt-20 py-5 items-center flex flex-col justify-center">
+  <div class="px-10 pt-20 py-5 items-center flex flex-col justify-center">
     <div class="flex flex-row justify-center items-center">
       <img class="w-14 xl:w-28 mx-4" src="../assets/images/educacao.png">
       <h1 class="text-white text-4xl xl:text-6xl xl:ml-6 font-black ">EDUCAÇÃO</h1>
