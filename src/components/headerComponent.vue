@@ -54,50 +54,53 @@
   </div>
 </template> -->
 <template>
-  <div class=" header-bg flex flex-wrap p-5 lg:px-20 xl:px-32 lg:pt-20 lg:pb-10 lg:py-5">
+  <div class="w-full items-end flex justify-end">
+    <button class="m-2 rounded-xl p-2 header-bg-dark text-white text-xl font-bold " @click="changeLanguage">Translate</button>
+  </div>
+  <div class="flex flex-wrap p-5 lg:px-20 xl:px-32 lg:pt-20 lg:pb-10 lg:py-5">
     <div class="w-full lg:w-auto flex justify-center lg:block">
       <div class="flex-none">
-        <div data-aos="zoom-in-up" class="bg-cover rounded-lg xl:rounded-xl h-60 w-60 xl:h-96 xl:w-96 transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:skew-y-2 duration-300" :style="'background-image: url(' + require('../assets/images/perfil.jpg') "></div>
+        <div data-aos="zoom-in-up" class="bg-cover rounded-lg xl:rounded-xl h-60 w-60 transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:skew-y-2 duration-300" :style="'background-image: url(' + require('../assets/images/perfil.jpg') "></div>
       </div>
     </div>
     <div class="w-full lg:w-auto flex flex-col lg:ml-20 text-center lg:text-left mt-5 lg:mt-0">
       <div class="flex items-center">
         <div class="flex-grow text-white">
-          <p class="text-lg xl:text-4xl" data-aos="fade-up">{{ $t('header.imFelipeBarros') }}</p>
-          <p class="text-4xl xl:text-6xl  font-bold box-decoration-slice bg-gradient-to-r from-pallete-50 to-blue-700 text-white px-2" data-aos="fade-left">FRONTEND ENGINEER</p>
-          <p class="text-sm xl:text-2xl box-decoration-slice bg-gradient-to-r from-blue-700 to-pallete-50 text-white px-2" data-aos="fade-right">{{ $t('header.Experience') }}</p>
+          <p class="text-lg 2xl:text-4xl" data-aos="fade-up">{{ $t('header.imFelipeBarros') }}</p>
+          <p class="text-4xl 2xl:text-6xl  font-bold box-decoration-slice bg-gradient-to-r from-pallete-50 to-blue-700 text-white px-2" data-aos="fade-left">FRONTEND ENGINEER</p>
+          <p class="text-sm 2xl:text-2xl box-decoration-slice bg-gradient-to-r from-blue-700 to-pallete-50 text-white px-2" data-aos="fade-right">{{ $t('header.Experience') }}</p>
           <p class="text-sm flex justify-center lg:justify-start flex-wrap space-x-2 pt-2"></p>
-          <div data-aos="fade-up" class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4 xl:space-x-8 xl:mt-4">
+          <div data-aos="fade-up" class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4 2xl:space-x-8 2xl:mt-4">
             <div class="flex items-center space-x-2">
-              <img class="w-6 xl:w-10 rounded-lg" src="../assets/images/js.png" alt="">
-              <span class="xl:text-2xl">JavaScript</span>
+              <img class="w-6 2xl:w-10 rounded-lg" src="../assets/images/js.png" alt="">
+              <span class="2xl:text-2xl">JavaScript</span>
             </div>
             <div class="flex items-center space-x-2">
-              <img class="w-6 xl:w-10 rounded-lg" src="../assets/images/html.png" alt="">
-              <span class="xl:text-2xl">HTML</span>
+              <img class="w-6 2xl:w-10 rounded-lg" src="../assets/images/html.png" alt="">
+              <span class="2xl:text-2xl">HTML</span>
             </div>
             <div class="flex items-center space-x-2">
-              <img class="w-6 xl:w-10 rounded-lg" src="../assets/images/css.png" alt="">
-              <span class="xl:text-2xl">CSS</span>
+              <img class="w-6 2xl:w-10 rounded-lg" src="../assets/images/css.png" alt="">
+              <span class="2xl:text-2xl">CSS</span>
             </div>
             <div class="flex items-center space-x-2">
               <img class="w-6 xl:w-10 rounded-lg" src="../assets/images/vue.png" alt="">
-              <span class="xl:text-2xl">VueJS</span>
+              <span class="2xl:text-2xl">VueJS</span>
             </div>
 
           </div>
           <div class="flex justify-center lg:justify-start space-x-2 pt-10">
             <button data-aos="fade-up" @click="goToExternalLink('https://github.com/FelipeBarros10')" class="rounded transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
-              <i class="bi bi-github text-4xl xl:text-5xl"></i>
+              <i class="bi bi-github text-4xl 2xl:text-5xl"></i>
             </button>
             <button data-aos="fade-down" @click="goToExternalLink('https://www.linkedin.com/in/felipe-barros-31468a234/')" class="rounded transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
-              <i class="bi bi-linkedin text-4xl xl:text-5xl"></i>
+              <i class="bi bi-linkedin text-4xl 2xl:text-5xl"></i>
             </button>
             <button data-aos="fade-up" @click="goToExternalLink()" class="rounded transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
-              <i class="bi bi-file-earmark-arrow-down-fill text-4xl xl:text-5xl"></i>
+              <i class="bi bi-file-earmark-arrow-down-fill text-4xl 2xl:text-5xl"></i>
             </button>
             <button data-aos="fade-down" @click="goToExternalLink('https://api.whatsapp.com/send/?phone=5514988256847&text&type=phone_number&app_absent=0.')" class="rounded transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
-              <i class="bi bi-whatsapp text-4xl xl:text-5xl"></i>
+              <i class="bi bi-whatsapp text-4xl 2xl:text-5xl"></i>
             </button>
           </div>
         </div>
@@ -107,8 +110,10 @@
 </template>
 
 <script>
+import { useI18n } from 'vue-i18n'
 import AOS from 'aos'
 AOS.init()
+
 export default {
   data () {
     return {
@@ -121,6 +126,18 @@ export default {
         link,
         '_blank'
       )
+    }
+  },
+
+  setup () {
+    const { locale } = useI18n()
+
+    function changeLanguage () {
+      locale.value = locale.value === 'ptBR' ? 'en' : 'ptBR'
+    }
+
+    return {
+      changeLanguage
     }
   }
 }

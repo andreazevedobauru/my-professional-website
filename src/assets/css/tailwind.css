@@ -10,6 +10,10 @@ body,
   width: 100%;
   background: rgb(5, 2, 0);
   background: linear-gradient(223deg, rgb(0, 0, 0,1) 0%, rgb(12, 2, 150) 65%, rgb(0, 0, 0,1));
+  height: 100%;
+  background-image: url(../images/back2.jpg);
+  background-position: cover;
+  background-size: center;
 }
 
 .header-bg-dark{
