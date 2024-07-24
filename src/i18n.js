@@ -10,7 +10,14 @@ const messages = {
     experiencies: {
       title: 'Companies that i helped with my expertise',
       since: 'Since'
+    },
+    educations: {
+      title: 'EDUCATION',
+      subtitle: 'College',
+      couse: 'Information of Systems'
+
     }
+
   },
   ptBR: {
     header: {
@@ -26,6 +33,7 @@ const messages = {
 }
 
 const i18n = createI18n({
+  legacy: false,
   locale: 'ptBR', // set locale
   fallbackLocale: 'en', // set fallback locale
   messages // set locale messages
