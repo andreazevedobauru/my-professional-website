@@ -1,5 +1,5 @@
 <template>
-  <div class=" px-20 pt-20 py-5 flex items-center flex justify-center">
+  <div class=" header-bg-dark px-20 pt-20 py-5 flex items-center flex justify-center">
     <div class="-my-6">
     <h2 class="text-lg text-white font-bold">{{ $t('experiencies.title') }}</h2>
       <!-- Experience #1 -->

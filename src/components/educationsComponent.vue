@@ -1,11 +1,11 @@
 <template>
-  <div class="header-bg-dark bg-white px-10 pt-20 py-5 items-center flex flex-col justify-center">
-    <div data-aos="fade-right" class="flex flex-row justify-center items-center">
-      <img class="w-14 xl:w-20 2xl:w-28 mx-4" src="../assets/images/educacao.png">
-      <h1 class="text-blue-400 text-4xl xl:text-5xl 2xl:text-6xl font-extrabold ">EDUCAÇÃO</h1>
+  <div class=" bg-gray-200 px-10 pt-20 py-5 items-center flex flex-col justify-center">
+    <div data-aos="fade-right" class="flex flex-row header-bg-dark justify-center items-center border-b-4 border-r-4 rounded-2xl shadow-xl shadow-blue-800 border-blue-300">
+      <img class="w-14 xl:w-20 2xl:w-28 ml-5 mr-3 my-3" src="../assets/images/educacao.png">
+      <h1 class="text-white text-4xl xl:text-5xl 2xl:text-6xl font-extrabold 2xl:mr-5 ">{{ $t('educations.title') }}</h1>
     </div>
 
-    <div class="xl:flex bg-purple-700 xl:w-9/12 2xl:w-11/12 xl:justify-center xl:items-center xl:mt-14">
+    <div class="xl:flex xl:w-9/12 2xl:w-11/12 xl:justify-center xl:items-center xl:mt-14">
       <div data-aos="fade-up" class="w-12/12 xl:w-4/12 2xl:w-3/12 xl:rounded-3xl flex mt-8 shadow-xl shadow-green-700 flex-col justify-center items-center">
         <div class="w-full bg-pallete-130 rounded-xl xl:rounded-3xl flex flex-col justify-center items-center">
           <div class="w-3/6">
@@ -19,7 +19,7 @@
 
           <div class="flex flex-col justify-center items-center">
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">Local:</span> ITE - BAURU</span>
-            <span class="font-medium text-white text-md my-2 xl:my-3 xl:text-xl"><span class="font-bold text-white">Curso:</span> Sistemas de Informação </span>
+            <span class="font-medium text-white text-md my-2 mx-4 xl:my-3 xl:text-xl"><span class="font-bold text-white">Curso:</span> Sistemas de Informação </span>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">Início:</span> 2024 </span>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">Término:</span> 2027 </span>
             <button class="bg-btn-ite text-white font-serif rounded-3xl px-3 py-3 2xl:p-6 xl:border-2 xl:border-green-700 xl:rounded-full my-5 xl:mt-16 xl:mb-8 font-bold shadow-xl xl:text-md" @click="goToExternalLink('https://ite.edu.br/paginas/sobre-a-unidade')">SOBRE A ITE</button>

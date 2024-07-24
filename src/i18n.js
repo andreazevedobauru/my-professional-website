@@ -14,7 +14,7 @@ const messages = {
     educations: {
       title: 'EDUCATION',
       subtitle: 'College',
-      couse: 'Information of Systems'
+      course: 'Information of Systems'
 
     }
 
@@ -28,6 +28,12 @@ const messages = {
     experiencies: {
       title: 'Empresas que ajudei com meu expertise',
       since: 'Desde'
+    },
+    educations: {
+      title: 'EDUCAÇÃO',
+      subtitle: 'Faculdade',
+      course: 'Sistemas de Informação'
+
     }
   }
 }
