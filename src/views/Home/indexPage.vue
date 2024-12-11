@@ -1,14 +1,16 @@
 <template>
   <index-header/>
-  <experiencies-component/>
+  <educations-component/>
+  <!-- <experiencies-component/> -->
 </template>
 
 <script>
 import indexHeader from '@/components/headerComponent.vue'
-import experienciesComponent from '@/components/experienciesComponent.vue'
+import EducationsComponent from '@/components/educationsComponent.vue'
+// import experienciesComponent from '@/components/experienciesComponent.vue'
 
 export default {
-  components: { indexHeader, experienciesComponent }
+  components: { indexHeader, EducationsComponent }
 
 }
 </script>
