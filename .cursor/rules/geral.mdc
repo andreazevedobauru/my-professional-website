@@ -1,0 +1,19 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Regras e contextos gerais do projeto
+
+# Sobre o que é o projeto?
+Este é o meu site pessoal, sou desenvolvedor com mais de 11 anos de experiencia.
+Aqui vou deixar meu portifolio para que recrutadores possam me conhecer.
+
+Estamos utilizando as seguintes tecnologias:
+- animate.css
+- vue
+- vue-router
+- tailwindcss: "^3.4.4"
+
+
+

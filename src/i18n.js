@@ -5,7 +5,7 @@ const messages = {
     header: {
       imAndreAzevedo: 'I\'M ANDRE AZEVEDO',
       fullStackEnginner: 'FULLSTACK ENGINEER',
-      llyearsExperience: '11 experience years '
+      llyearsExperience: '12 experience years '
     },
     experiencies: {
       title: 'Companies that i helped with my expertise',
@@ -16,7 +16,7 @@ const messages = {
     header: {
       imAndreAzevedo: 'OI, SOU ANDRE AZEVEDO',
       fullStackEnginner: 'FULLSTACK ENGINEER',
-      llyearsExperience: '11 anos de experiência'
+      llyearsExperience: '12 anos de experiência'
     },
     experiencies: {
       title: 'Empresas que ajudei com meu expertise',
