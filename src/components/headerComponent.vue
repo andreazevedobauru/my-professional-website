@@ -16,9 +16,9 @@
           </p>
 
           <div data-aos="fade-up" data-aos-delay="400" class="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-6 mb-8">
-            <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105 shadow-lg">
-              Ver Projetos
-            </button>
+            <a href="#empresas" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105 shadow-lg cursor-pointer">
+              Trajetória Profissional
+            </a>
             <button class="bg-white hover:bg-gray-50 text-indigo-600 font-semibold py-3 px-8 rounded-lg border-2 border-indigo-600 transition duration-300 transform hover:scale-105 shadow-lg">
               Baixar CV
             </button>
